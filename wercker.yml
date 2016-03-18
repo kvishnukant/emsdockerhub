@@ -8,3 +8,4 @@ build:
             java -version
             javac -version
             mvn clean install
+
