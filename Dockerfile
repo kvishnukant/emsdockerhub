@@ -34,6 +34,8 @@ CMD ["catalina.sh", "run"]
 #adding jenkins user
 #RUN adduser jenkins
 #RUN echo "jenkins:jenkins" | chpasswd
+
+
 #Volume Mounting (Docker custom build env plugin copy reports by itself)
 #VOLUME ["/var/lib/jenkins"]
 #Exposing the port
